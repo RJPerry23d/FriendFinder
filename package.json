@@ -1,0 +1,27 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Help find a friend that closely matches ansers you have made",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RJPerry23d/FriendFinder.git"
+  },
+  "keywords": [
+    "FriendFinder"
+  ],
+  "author": "RJ Perry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RJPerry23d/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/RJPerry23d/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5"
+  }
+}
