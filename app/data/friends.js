@@ -1,4 +1,4 @@
-//Friends that are pre loaded
+//Super Friends that are pre loaded
 
 var friendsArray = [{
     name: "Superman",

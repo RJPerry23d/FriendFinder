@@ -1,259 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Super FriendFinder</title>
+
+<head>
+    <title>Super FriendFinder</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Bootstrap -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-			crossorigin="anonymous">					
+			crossorigin="anonymous">
 
-			</head>
-			<body>
-				<div style="text-align: center;"><img src="http://nerdist.com/wp-content/uploads/2015/10/super-friends-12.jpg" alt="Super Friends Finder" style="width:25%; height:auto;" ></div>
-				<div class="container">
-					<h2>Super Survey Questions</h2>
-					<hr>
-					<h3>
-					<strong>About You</strong>
-					</h3>
-					<!-- Below are the name and picture link fields to add to name and photo and questions
-					below and each choice has a value -->
-					<h4>
-					Super Hero Name (Required)
-					</h4>
-					<input type="text" name="" id="name" class="form-control" required>
-					<h4>Link to Photo Image (Required)</h4>
-					<input type="text" name="" id="photo" class="form-control" required>
-					<hr>
-					<h3><strong>Question 1</strong></h3>
-					<h4> I would confront a man with a loaded gun.</h4>
-					<select data-placeholder class="selection" id="q1">
-						<option value="">Make a Selection</option>
-						<option value="1">1 (Strongly Disagree)</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5 (Strongly Agree)</option>
-					</select>
-					<h3><strong>Question 2</strong></h3>
-					<h4>Tights are fun to wear.</h4>
-					<select data-placeholder class="selection" id="q2">
-						<option value="">Make a Selection</option>
-						<option value="1">1 (Strongly Disagree)</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5 (Strongly Agree)</option>
-					</select>
-					<h3><strong>Question 3</strong></h3>
-					<h4>I do not mind others knowing my true identity.</h4>
-					<select data-placeholder class="selection" id="q3">
-						<option value="">Make a Selection</option>
-						<option value="1">1 (Strongly Disagree)</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5 (Strongly Agree)</option>
-					</select>
-					<h3><strong>Question 4</strong></h3>
-					<h4>Capes are frick'n awesome!</h4>
-					<select data-placeholder class="selection" id="q4">
-						<option value="">Make a Selection</option>
-						<option value="1">1 (Strongly Disagree)</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5 (Strongly Agree)</option>
-					</select>
-					<h3><strong>Question 5</strong></h3>
-					<h4>I work better with others.</h4>
-					<select data-placeholder class="selection" id="q5">
-						<option value="">Make a Selection</option>
-						<option value="1">1 (Strongly Disagree)</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5 (Strongly Agree)</option>
-					</select>
-					<h3><strong>Question 6</strong></h3>
-					<h4>I am a problem solver.</h4>
-					<select data-placeholder class="selection" id="q6">
-						<option value="">Make a Selection</option>
-						<option value="1">1 (Strongly Disagree)</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5 (Strongly Agree)</option>
-					</select>
-					<h3><strong>Question 7</strong></h3>
-					<h4>Gadgets are very useful to me.</h4>
-					<select data-placeholder class="selection" id="q7">
-						<option value="">Make a Selection</option>
-						<option value="1">1 (Strongly Disagree)</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5 (Strongly Agree)</option>
-					</select>
-					<h3><strong>Question 8</strong></h3>
-					<h4>I consider myself a leader.</h4>
-					<select data-placeholder class="selection" id="q8">
-						<option value="">Make a Selection</option>
-						<option value="1">1 (Strongly Disagree)</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5 (Strongly Agree)</option>
-					</select>
-					<h3><strong>Question 9</strong></h3>
-					<h4>I can defy gravity.</h4>
-					<select data-placeholder class="selection" id="q9">
-						<option value="">Make a Selection</option>
-						<option value="1">1 (Strongly Disagree)</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5 (Strongly Agree)</option>
-					</select>
-					<h3><strong>Question 10</strong></h3>
-					<h4>I am originally from Earth.</h4>
-					<select data-placeholder class="selection" id="q10">
-						<option value="">Make a Selection</option>
-						<option value="1">1 (Strongly Disagree)</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5 (Strongly Agree)</option>
-					</select><!--End of Questions-->
+</head>
+
+<body>
+	<div style="text-align: center;"><img src="http://nerdist.com/wp-content/uploads/2015/10/super-friends-12.jpg" alt="Super Friends Finder" style="width:25%; height:auto;" ></div>
+    <div class="container">
+        <h2>Super Survey Questions</h2>
+        <hr>
+        <h3>
+            <strong>About You</strong>
+        </h3>
+        <!-- Below are the name and phote fields to add to name and photo and questions
+        below and each choice has a value -->
+        <h4>
+            Super Hero Name (Required)
+        </h4>
+        <input type="text" name="" id="name" class="form-control" required>
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" name="" id="photo" class="form-control" required>
+        <hr>
+        <h3><strong>Question 1</strong></h3>
+        <h4> I would confront a man with a loaded gun.</h4>
+        <select data-placeholder class="selection" id="q1">
+        <option value="">Make a Selection</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+        <h3><strong>Question 2</strong></h3>
+        <h4>Tights are fun to wear.</h4>
+        <select data-placeholder class="selection" id="q2">
+        <option value="">Make a Selection</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+        <h3><strong>Question 3</strong></h3>
+        <h4>I do not mind others knowing my true identity.</h4>
+        <select data-placeholder class="selection" id="q3">
+        <option value="">Make a Selection</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+        <h3><strong>Question 4</strong></h3>
+        <h4>Capes are frick'n awesome!</h4>
+        <select data-placeholder class="selection" id="q4">
+        <option value="">Make a Selection</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+        <h3><strong>Question 5</strong></h3>
+        <h4>I work better with others.</h4>
+        <select data-placeholder class="selection" id="q5">
+        <option value="">Make a Selection</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+        <h3><strong>Question 6</strong></h3>
+        <h4>I am a problem solver.</h4>
+        <select data-placeholder class="selection" id="q6">
+        <option value="">Make a Selection</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+        <h3><strong>Question 7</strong></h3>
+        <h4>Gadgets are very useful to me.</h4>
+        <select data-placeholder class="selection" id="q7">
+        <option value="">Make a Selection</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+        <h3><strong>Question 8</strong></h3>
+        <h4>I consider myself a leader.</h4>
+        <select data-placeholder class="selection" id="q8">
+        <option value="">Make a Selection</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+        <h3><strong>Question 9</strong></h3>
+        <h4>I can defy gravity.</h4>
+        <select data-placeholder class="selection" id="q9">
+        <option value="">Make a Selection</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+        <h3><strong>Question 10</strong></h3>
+        <h4>I am originally from Earth.</h4>
+        <select data-placeholder class="selection" id="q10">
+        <option value="">Make a Selection</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+        <div class="container">
+            <!-- Trigger the modal with a button -->
+            <br>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="surveyButton">Submit</button>
+            <br>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Super Friend Match</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Your perfect Super Friend match is:</h2>
+                            <br>
+                           <h2 id="matchName"></h2>
+                            <br>
+                            <img id="matchImg" src="" alt="#" style="width:50%; height:auto;">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>    
+            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/RJPerry23d/friendFinder">Github Repo</a></p>
+        </div>
 
 
-					<div class="container" style="text-align: center;">
-						<!-- Trigger the modal with a button -->
-						<br>
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="surveyButton">Submit</button>
-						<br>
-						<!-- Modal -->
-						<div class="modal fade" id="myModal" role="dialog">
-							<div class="modal-dialog modal-lg">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Super Friend</h4>
-									</div>
-									<div class="modal-body">
-										<h2>Your perfect Super Friend match is:</h2>
-										<br>
-										<h2 id="matchName"></h2>
-										<br>
-										<img id="matchImg" src="" alt="#" style="width:75%; height:auto;">
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<br>
-						<p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/RJPerry23d/FriendFinder">Github Repo</a></p>
-					</div><!--End of Container Div-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+<script type="text/javascript">
+    var userData;
+    // on the click of the submit button it will store answers in a var userData
+    $('#surveyButton').on('click', function (event) {
+        event.preventDefault();
+        userData = {
+            name: $('#name').val().trim(),
+            photo: $('#photo').val().trim(),
+            answers: [$("#q1").val(), $("#q2").val(),
+                $("#q3").val(), $("#q4").val(), $("#q5").val(),
+                $("#q6").val(), $("#q7").val(), $("#q8").val(),
+                $("#q9").val(), $("#q10").val()
+            ]
+        }
+        console.log(userData.answers)
+// this funciton will make an ajax call get friends that are stored in the data file
+    function getAvailableFriends() {
+        var currentURL = window.location.origin;
+        $.ajax({
+                url: currentURL + '/api/friends'
+            })
+            .done(function (availableFriends) {
+                console.log(availableFriends);
+                var answerValue = 50;
+                var match;
+                var matchDifference = 20;
+                var friendsIndex = 0;
+                //These function to compare answers of user to the stored friends
+                function searchFriends() {
+                    for (j = 0; j < availableFriends.length; j++) {
+                        friendsIndex = j;
+                        personality();
+                    }
+                    console.log("Your perfect Super Friend match is..... " + match);
+                }
+                // peronality function will compare answers and return who is the closest match
+                function personality() {
+                    answerValue = 0;
+                    for (var i = 0; i < 10; i++) {
+                        var numArray1 = parseInt(availableFriends[friendsIndex].answers[i]);
+                        var numArray2 = parseInt(userData.answers[i]);
+                        var questionDifference = Math.abs(numArray1 - numArray2);
+                        answerValue += questionDifference;
+                    }
+                    if (answerValue < matchDifference) {
+                        matchDifference = answerValue;
+                        match = availableFriends[friendsIndex].name;
+                        var matchPhoto = availableFriends[friendsIndex].photo;
+                        console.log(answerValue);
+                        console.log(availableFriends[friendsIndex].name);
+                        console.log(matchDifference)
+                        $("#matchImg").attr("src", matchPhoto);
+                        $("#matchName").html(match)
+                        addUserData();
+                    }
+                }
+                searchFriends();
+            })
+            
+    }
+    getAvailableFriends();
+});
+// this will add the user to the friends array and then clear the form
+function addUserData() {
+        $.post("/api/friends", userData,
+            function (data) {
+                // Clear the form when submitting
+                $("#name").val("");
+                $("#photo").val("");
+                $("#q1").val("");
+                $("#q2").val("");
+                $("#q3").val("");
+                $("#q4").val("");
+                $("#q5").val("");
+                $("#q6").val("");
+                $("#q7").val("");
+                $("#q8").val("");
+                $("#q9").val("");
+                $("#q10").val("");
+            });
+}
+</script>
 
-					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-					<!-- Include all compiled plugins (below), or include individual files as needed -->
-					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-				</body><!--End of main body-->
-
-				<script type="text/javascript">
-				var userData;
-
-				// on the click of the submit button it will store answers in a var userData
-
-				$('#surveyButton').on('click', function (event) {
-				event.preventDefault();
-				userData = {
-				name: $('#name').val().trim(),
-				photo: $('#photo').val().trim(),
-				answers: [$("#q1").val(), $("#q2").val(),
-				$("#q3").val(), $("#q4").val(), $("#q5").val(),
-				$("#q6").val(), $("#q7").val(), $("#q8").val(),
-				$("#q9").val(), $("#q10").val()
-				]
-				}
-				console.log(userData.answers)
-
-				// this funciton will make an ajax call get friends that are stored in the data file
-
-				function getAvailableFriends() {
-				var currentURL = window.location.origin;
-				$.ajax({
-				url: currentURL + '/api/friends'
-				})
-				.done(function (availableFriends) {
-				console.log(availableFriends);
-				var answerValue = 50;
-				var match;
-				var matchDifference = 15;
-				var friendsIndex = 0;
-
-				//This function compares answers of user to the stored friends
-
-				function searchFriends() {
-				for (j = 0; j < availableFriends.length; j++) {
-				friendsIndex = j;
-				compatibilty();
-				}
-				console.log("You perfect Super Friend match is..... " + match);
-				}
-				// compatibility function will compare answers and return who is the closest match
-
-				function compatibilty() {
-				answerValue = 0;
-				for (var i = 0; i < 10; i++) {
-				var numArray1 = parseInt(availableFriends[friendsIndex].answers[i]);
-				var numArray2 = parseInt(userData.answers[i]);
-				var questionDifference = Math.abs(numArray1 - numArray2);
-				answerValue += questionDifference;
-				}
-				if (answerValue < matchDifference) {
-				matchDifference = answerValue;
-				match = availableFriends[friendsIndex].name;
-				var matchPhoto = availableFriends[friendsIndex].photo;
-				console.log(answerValue);
-				console.log(availableFriends[friendsIndex].name);
-				console.log(matchDifference)
-				$("#matchImg").attr("src", matchPhoto);
-				$("#matchName").html(match)
-				addUserData();
-				}
-				}
-				searchFriends();
-				})
-				
-				}
-				getAvailableFriends();
-				});
-				// this will add the new super friend to the friends array and then clear the form
-
-				function addUserData() {
-				$.post("/api/friends", userData,
-				function (data) {
-				// Clear the form when submitting
-				$("#name").val("");
-				$("#photo").val("");
-				$("#q1").val("");
-				$("#q2").val("");
-				$("#q3").val("");
-				$("#q4").val("");
-				$("#q5").val("");
-				$("#q6").val("");
-				$("#q7").val("");
-				$("#q8").val("");
-				$("#q9").val("");
-				$("#q10").val("");
-				});
-				}
-				</script>
-			</html>
+</html>
